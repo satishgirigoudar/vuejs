@@ -1,5 +1,5 @@
 <template>
-  <h1>hello {{ name }}</h1>
+  <h1>hello {{ name }} {{ lastName}}</h1>
   <h2 v-text="name"></h2>
 </template>
 
@@ -7,7 +7,8 @@
 export default {
   data() {
     return {
-      name : 'satish'
+      name : 'satish',
+      lastName : 'Girigoudar',
     }
   }
 }
